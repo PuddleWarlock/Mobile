@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         View.OnClickListener oclBtnWhoAmI = new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                textView.setText("Мой номер по списку № X");
+                textView.setText("Мой номер по списку № 23");
                 checkBox.setChecked(true);
             }
         };
