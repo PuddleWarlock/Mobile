@@ -24,5 +24,9 @@
             android:id="@+id/nav_browser"
             android:icon="@drawable/ic_launcher_foreground"
             android:title="@string/menu_browser" />
+        <item
+            android:id="@+id/nav_background_task"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="@string/background_task" />
     </group>
 </menu>
