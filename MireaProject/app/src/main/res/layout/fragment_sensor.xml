@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/compassText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Направление: --°"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Подсказки для ориентирования:\n1. Север находится в стороне, противоположной солнцу в полдень.\n2. Мох чаще растет на северной стороне деревьев.\n3. Звезда Полярная указывает на север ночью."
+        android:textSize="16sp" />
+
+</LinearLayout>

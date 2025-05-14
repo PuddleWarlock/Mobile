@@ -15,4 +15,5 @@
     <string name="menu_browser">Browser</string>
     <string name="menu_data">Info</string>
     <string name="background_task">Background Task</string>
+    <string name="hardware">Hardware</string>
 </resources>

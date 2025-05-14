@@ -38,4 +38,38 @@
         android:name="ru.mirea.reznikap.mireaproject.BackgroundTaskFragment"
         android:label="Background Task"
         tools:layout="@layout/fragment_background_task" />
+
+    <fragment
+        android:id="@+id/nav_hardware"
+        android:name="ru.mirea.reznikap.mireaproject.HardwareFragment"
+        android:label ="@string/hardware"
+        tools:layout="@layout/fragment_hardware">
+        <action
+            android:id="@+id/action_nav_hardware_to_nav_sensor"
+            app:destination="@id/nav_sensor" />
+        <action
+            android:id="@+id/action_nav_hardware_to_nav_camera"
+            app:destination="@id/nav_camera" />
+        <action
+            android:id="@+id/action_nav_hardware_to_nav_microphone"
+            app:destination="@id/nav_microphone" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_sensor"
+        android:name="ru.mirea.reznikap.mireaproject.SensorFragment"
+        android:label="Датчик: Определение севера"
+        tools:layout="@layout/fragment_sensor" />
+
+    <fragment
+        android:id="@+id/nav_camera"
+        android:name="ru.mirea.reznikap.mireaproject.CameraFragment"
+        android:label="Камера: Создание коллажа"
+        tools:layout="@layout/fragment_camera" />
+
+    <fragment
+        android:id="@+id/nav_microphone"
+        android:name="ru.mirea.reznikap.mireaproject.MicrophoneFragment"
+        android:label="Микрофон: Аудиозаметка"
+        tools:layout="@layout/fragment_microphone" />
 </navigation>
