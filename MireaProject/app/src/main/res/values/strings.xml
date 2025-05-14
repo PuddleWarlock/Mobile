@@ -16,4 +16,6 @@
     <string name="menu_data">Info</string>
     <string name="background_task">Background Task</string>
     <string name="hardware">Hardware</string>
+    <string name="profile">Profile</string>
+    <string name="filework">FileWork</string>
 </resources>
