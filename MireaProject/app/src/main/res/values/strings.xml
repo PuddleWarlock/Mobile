@@ -18,4 +18,5 @@
     <string name="hardware">Hardware</string>
     <string name="profile">Profile</string>
     <string name="filework">FileWork</string>
+    <string name="Network">Сетевые данные</string>
 </resources>
